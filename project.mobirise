@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "mediakit.html",
     "theme": {
       "name": "photom4",
       "title": "PhotoM4",
@@ -38,7 +38,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "Siddharta Resources",
+    "name": "Siddhartha Resources for Tour Operators",
     "versionFirst": "5.3.0",
     "siteFonts": [
       {
@@ -69,12 +69,23 @@
         "file": "@PROJECT_PATH@/fonts/TrajanPro-Regular/font.ttf"
       }
     ],
-    "imageResize": true,
+    "imageResize": false,
+    "cssOptimize": true,
+    "favicon": "@PROJECT_PATH@/assets/images/siddharta-lotus-symbol-01.jpg",
+    "mbrsiteDomain": "ir7y8hfju4",
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
     "uniqCompNum": 11,
     "versionPublish": "5.3.0"
   },
   "pages": {
-    "index.html": {
+    "mediakit.html": {
       "settings": {
         "main": true,
         "title": "Home",
@@ -755,107 +766,6 @@
             ]
           },
           "_anchor": "image02-9"
-        },
-        {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card-wrapper": {
-              "overflow": "hidden",
-              "height": "100%",
-              "background": "@cardColor",
-              "color": "#232323",
-              "padding": "0"
-            },
-            ".line-wrap when (@showMaintitle) and (@showLineMaintitle)": {
-              "display": "inline-block",
-              "width": "100%"
-            },
-            ".rev, .mbr-iconfont": {
-              "display": "inline-block"
-            },
-            ".line when (@showMaintitle) and (@showLineMaintitle)": {
-              "display": "inline-block",
-              "width": "80px",
-              "height": "4px",
-              "background-color": "@lineColor",
-              "margin-top": "0.5rem",
-              "margin-bottom": "2rem"
-            },
-            ".card-img": {
-              "position": "relative"
-            },
-            ".card": {
-              "&:hover .image-btn": {
-                "opacity": "1",
-                "bottom": "10px"
-              }
-            },
-            ".image-btn": {
-              "transition": "all 0.3s",
-              "opacity": "0",
-              "position": "absolute",
-              "bottom": "0px",
-              "left": "0",
-              "right": "0"
-            },
-            ".card-title": {
-              "color": "#833030",
-              "margin": "0",
-              "text-align": "center"
-            },
-            ".card-box": {
-              "padding": "1.5rem"
-            },
-            ".mbr-section-title": {
-              "margin": "0 auto",
-              "color": "#000000",
-              "text-align": "center"
-            },
-            ".mbr-section-sub-title": {
-              "text-align": "center",
-              "color": "#767676"
-            },
-            ".mbr-section-title, .line-wrap": {
-              "text-align": "center",
-              "color": "#000000"
-            },
-            ".card-text, .mbr-section-btn, .ico-line": {
-              "text-align": "left",
-              "color": "#767676"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "center",
-              "color": "#ffffff"
-            },
-            "@media (max-width: 576px)": {
-              ".image-btn": {
-                "opacity": "1",
-                "bottom": "10px"
-              }
-            },
-            ".mbr-text": {
-              "color": "#000000"
-            }
-          },
-          "_name": "extFeatures55",
-          "_sourceTheme": "photom4",
-          "_customHTML": "<section class=\"extFeatures\" group=\"Features\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMaintitle\">\n        <input type=\"checkbox\" title=\"Line Title\" name=\"showLineMaintitle\" checked condition=\"showMaintitle\">\n        <input type=\"checkbox\" title=\"Main Sub Title\" name=\"showsubtitle\">\n        <input type=\"checkbox\" title=\"Cards Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showbuttons\" checked>\n        <header>Colors</header>\n        <input type=\"color\" title=\"Cards\" name=\"cardColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Line\" name=\"lineColor\" value=\"#7f1933\" condition=\"showMaintitle&&showLineMaintitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#efefef\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#232bc0\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12\">\n                <h2 class=\"mbr-section-title pb-2 mbr-bold mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showMaintitle\" data-app-selector=\".mbr-section-title, .line-wrap\">Featured Programs</h2>\n                <div class=\"line-wrap\" mbr-if=\"showMaintitle&&showLineMaintitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <p class=\"mbr-text align-left pb-4 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubtitle\" data-app-selector=\".mbr-text\">\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nisi non arcu rutrum molestie. </p>\n\n            </div>\n        </div>\n        <div class=\"row row-content justify-content-center\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount > '3', 'col-lg-4': cardsAmount == '3', 'col-lg-6': cardsAmount == '2'}\" mbr-if=\"cardsAmount > 0\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"https://www.siddhartha-bali.com/wp/wp-content/uploads/2021/05/01-Siddhartha-Aerial-View-Oceanfront-and-Mount-Agung.jpg\"><img src=\"@PROJECT_PATH@/assets/images/00-siddhartha-aerial-view-mount-agung-506x380.jpg\" title alt=\"00_Siddhartha_Aerial View_Mount Agung\"></a>\n                        <div class=\"image-btn mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-7\" mbr-if=\"showbuttons\"><a href=\"https://www.siddhartha-bali.com/wp/wp-content/uploads/2021/05/01-Siddhartha-Aerial-View-Oceanfront-and-Mount-Agung.jpg\" class=\"btn btn-primary btn-md\" data-app-placeholder=\"Type Text\" target=\"_blank\">DOWNLOAD</a></div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showTitle\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title\"><span style=\"font-weight: normal;\">00_Siddhartha_Aerial View_Mount Agung</span></h4>\n\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount > '3', 'col-lg-4': cardsAmount == '3', 'col-lg-6': cardsAmount == '2'}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"https://www.siddhartha-bali.com/wp/wp-content/uploads/2021/05/Siddhartha-Aerial-View-Mount-Agung.jpg\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/01-siddhartha-aerial-view-oceanfront-and-mount-agung-506x380.jpg\" title alt></a>\n                        <div class=\"image-btn mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-7\" mbr-if=\"showbuttons\"><a href=\"https://mobiri.se\" class=\"btn btn-primary btn-md\" data-app-placeholder=\"Type Text\">DOWNLOAD</a></div>\n                    </div>\n\n                    <div class=\"card-box\" mbr-if=\"showTitle\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\n                            <div><span style=\"font-weight: normal;\">01_Siddhartha_Aerial View_Oceanfront and Mount Agung</span></div>\n                        </h4>\n\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount > '3', 'col-lg-4': cardsAmount == '3', 'col-lg-6': cardsAmount == '2'}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/1-siddhartha-oceanfront-sunbeds-506x337.jpg\" title alt=\"1_Siddhartha_Oceanfront Sunbeds\">\n                        <div class=\"image-btn mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showbuttons\"><a href=\"https://mobiri.se\" class=\"btn btn-primary btn-md\" data-app-placeholder=\"Type Text\">Download</a></div>\n\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showTitle\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><span style=\"font-weight: normal;\">1_Siddhartha_Oceanfront Sunbeds</span></h4>\n\n\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount > '3', 'col-lg-4': cardsAmount == '3', 'col-lg-6': cardsAmount == '2'}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/34.jpg\" title>\n                        <div class=\"image-btn mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showbuttons\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-primary btn-md\" data-app-placeholder=\"Type Text\">View Program</a>\n                        </div>\n\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showTitle\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Programming</h4>\n\n\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount > '3', 'col-lg-4': cardsAmount == '3', 'col-lg-6': cardsAmount == '2'}\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/37.jpg\" title>\n                        <div class=\"image-btn mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showbuttons\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-primary btn-md\" data-app-placeholder=\"Type Text\">View Program</a>\n                        </div>\n\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showTitle\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Сopywriting</h4>\n\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount > '3', 'col-lg-4': cardsAmount == '3', 'col-lg-6': cardsAmount == '2'}\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/36.jpg\" title>\n                        <div class=\"image-btn mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showbuttons\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-primary btn-md\" data-app-placeholder=\"Type Text\">View Program</a>\n                        </div>\n\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showTitle\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\n                            <div>Economics</div>\n                        </h4>\n\n\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount > '3', 'col-lg-4': cardsAmount == '3', 'col-lg-6': cardsAmount == '2'}\" mbr-if=\"cardsAmount > 6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/24.jpg\" title>\n                        <div class=\"image-btn mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showbuttons\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-primary btn-md\" data-app-placeholder=\"Type Text\">View Program</a>\n                        </div>\n\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showTitle\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Politics</h4>\n\n\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount > '3', 'col-lg-4': cardsAmount == '3', 'col-lg-6': cardsAmount == '2'}\" mbr-if=\"cardsAmount > 7\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/38.jpg\" title>\n                        <div class=\"image-btn mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showbuttons\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-primary btn-md\" data-app-placeholder=\"Type Text\">View Program</a>\n                        </div>\n\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showTitle\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Design</h4>\n\n\n                    </div>\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
-          "_cid": "sxuyooddGi",
-          "_anchor": "extFeatures55-0",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
         },
         {
           "_name": "image1",
