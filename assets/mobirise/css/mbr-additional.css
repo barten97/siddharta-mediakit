@@ -999,6 +999,118 @@ section.lazy-placeholder:after {
 .cid-sxuTMETZkg .mbr-gallery-item > div > span {
   text-align: center;
 }
+.cid-sxv8yhH2Do {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.cid-sxv8yhH2Do .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-sxv8yhH2Do .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-sxv8yhH2Do .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-sxv8yhH2Do .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-sxv8yhH2Do .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-sxv8yhH2Do .icon-focus {
+  display: none;
+}
+.cid-sxv8yhH2Do .mbr-gallery-title {
+  transition: all 0.5s ease;
+  position: absolute;
+  text-align: left;
+  display: none;
+  width: 100%;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  color: #000000;
+  font-weight: bold;
+  background: transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.cid-sxv8yhH2Do ul {
+  font-size: 0;
+}
+.cid-sxv8yhH2Do .mbr-gallery-filter ul li .btn {
+  border: none;
+  background-color: transparent;
+  color: #232323 !important;
+  padding: 0.5rem 1rem 0.6rem;
+  border-radius: 0;
+  margin: 0!important;
+  transition: padding, border 0s, transform .2s;
+}
+.cid-sxv8yhH2Do .mbr-gallery-filter ul li.active .btn {
+  padding: 0.5rem 1rem 0.5rem;
+  border-radius: 0 !important;
+  position: relative;
+}
+.cid-sxv8yhH2Do .mbr-gallery-filter ul li.active .btn:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #833030, #833030);
+}
+.cid-sxv8yhH2Do .mbr-gallery-filter ul li {
+  padding: 0;
+}
+.cid-sxv8yhH2Do .mbr-gallery-item > div:hover .mbr-gallery-title {
+  padding-bottom: 1.5rem;
+  display: block;
+}
+.cid-sxv8yhH2Do .mbr-gallery-item > div:hover:before {
+  opacity: 0.2 !important;
+}
+.cid-sxv8yhH2Do .btn {
+  background: none;
+  border-radius: 0 !important;
+}
+.cid-sxv8yhH2Do .btn:hover {
+  background: transparent !important;
+}
+.cid-sxv8yhH2Do .btn:hover:before {
+  background: transparent !important;
+}
+.cid-sxv8yhH2Do .btn:before {
+  background-color: transparent !important;
+}
+.cid-sxv8yhH2Do .btn:focus {
+  box-shadow: none;
+}
+.cid-sxv8yhH2Do .mbr-section-title {
+  position: relative;
+  z-index: 1;
+}
+.cid-sxv8yhH2Do .mbr-gallery-item > div > span {
+  text-align: center;
+}
 .cid-sxuZmDXPiZ {
   background: #ffffff;
   padding-top: 0px;
