@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "mediakit.html",
+    "currentPage": "resources.html",
     "theme": {
       "name": "photom4",
       "title": "PhotoM4",
@@ -81,11 +81,11 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 12,
+    "uniqCompNum": 13,
     "versionPublish": "5.3.0"
   },
   "pages": {
-    "mediakit.html": {
+    "resources.html": {
       "settings": {
         "main": true,
         "title": "Siddhartha Oceanfront Resort & Spa",
@@ -313,7 +313,7 @@
           },
           "_name": "content02",
           "_sourceTheme": "photom4",
-          "_customHTML": "<section class=\"content02 photom4_content02\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg && bg.type == 'color'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n\n            <div class=\"col-md-12 col-lg-6\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/spacing-1468x937.jpg\" alt=\"Siddhartha Oceanfront Resort & Spa\">\n                </div>\n            </div>\n\n            <div class=\"col-md-12 col-lg-6 py-5 m-auto\">\n                <div class=\"media-content\">\n                    <h1 class=\"mbr-section-title align-left mbr-bold mbr-black pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-5\">LOGO FORMATS</h1>\n                    <h3 class=\"mbr-section-subtitle mbr-semibold align-left mbr-black mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\">Links to download assets</h3>\n                    <div class=\"mbr-section-text mbr-black pb-3 \">\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\"><a href=\"assets/files/Siddharta-LOGO.pdf\" class=\"text-primary\"><i><b>&lt;&lt; LOGO PDF FORMAT &gt;&gt;</b></i></a><br><br><b>Logo Solid Background</b><br>(HiRes &amp; LoRes JPG FORMAT)<br><a href=\"https://www.siddhartha-bali.com/Siddharta-LOGO-solid.zip\" class=\"text-secondary\" target=\"_blank\"><i><b>&lt;&lt; DOWNLOAD FILES&gt;&gt;</b></i></a><br><br><b>Logo Transparent Background</b><br>(HiRes &amp; LoRes PNG FORMAT)<br><a href=\"https://www.siddhartha-bali.com/Siddharta-LOGO-transparent.zip\" class=\"text-primary\" target=\"_blank\"><i><b>&lt;&lt; DOWNLOAD FILES&gt;&gt;</b></i></a><br></p>\n                    </div>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-primary\" href=\"assets/files/Siddharta-Branding-Guide.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">DOWNLOAD BRANDING GUIDE PDF</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content02 photom4_content02\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg && bg.type == 'color'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n\n            <div class=\"col-md-12 col-lg-6\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/spacing-1468x937.jpg\" alt=\"Siddhartha Oceanfront Resort & Spa\">\n                </div>\n            </div>\n\n            <div class=\"col-md-12 col-lg-6 py-5 m-auto\">\n                <div class=\"media-content\">\n                    <h1 class=\"mbr-section-title align-left mbr-bold mbr-black pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-5\">LOGO FORMATS</h1>\n                    <h3 class=\"mbr-section-subtitle mbr-semibold align-left mbr-black mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\">Links to download assets</h3>\n                    <div class=\"mbr-section-text mbr-black pb-3 \">\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\"><a href=\"assets/files/Siddharta-LOGO.pdf\" class=\"text-primary\" target=\"_blank\"><i><b>&lt;&lt; LOGO PDF FORMAT &gt;&gt;</b></i></a><br><br><b>Logo Solid Background</b><br>(HiRes &amp; LoRes JPG FORMAT)<br><a href=\"https://www.siddhartha-bali.com/Siddharta-LOGO-solid.zip\" class=\"text-secondary\" target=\"_blank\"><i><b>&lt;&lt; DOWNLOAD FILES&gt;&gt;</b></i></a><br><br><b>Logo Transparent Background</b><br>(HiRes &amp; LoRes PNG FORMAT)<br><a href=\"https://www.siddhartha-bali.com/Siddharta-LOGO-transparent.zip\" class=\"text-primary\" target=\"_blank\"><i><b>&lt;&lt; DOWNLOAD FILES&gt;&gt;</b></i></a><br></p>\n                    </div>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-primary\" href=\"assets/files/Siddharta-Branding-Guide.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">DOWNLOAD BRANDING GUIDE PDF</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sxuC6JJ3jo",
           "_anchor": "content02-2",
           "_protectedParams": [],
@@ -498,7 +498,7 @@
             }
           },
           "_name": "content04",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#fbfbfb\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-black col-md-10 col-lg-6\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">RESORT GALLERY</h3>\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">HiRes Images</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>(Select image and right click to download)</i></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View More</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-black col-md-10 col-lg-6\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">RESORT GALLERY</h3>\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">HiRes Images</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>(Select image and right click to download)</i></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View More</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_anchor": "content04-3",
           "_isUserblock": true,
           "_sourceTheme": "photom4",
@@ -632,12 +632,12 @@
             },
             ".mbr-gallery-item > div > span": {
               "text-align": "center",
-              "color": "#3f3f3f"
+              "color": "#ffffff"
             }
           },
           "_name": "extGallery3",
           "_sourceTheme": "photom4",
-          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#833030\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    GALLERY\n                </h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter mbr-gallery-show-bullets mbr-gallery-show-text></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#833030\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#833030\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    GALLERY\n                </h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-bullets mbr-gallery-show-text></div>\n    </div>\n</section>",
           "_cid": "sxv8yhH2Do",
           "_anchor": "extGallery3-b",
           "_protectedParams": [
@@ -742,7 +742,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "4_Siddhartha_Gardens_Buddha Statue",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Gardens",
@@ -755,7 +755,260 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "5_Siddhartha_Gardens_Pathway",
+                "active": true
+              }
+            ]
+          }
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background-color": "@overlayColor1",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradientOverlay)": {
+                "background": "linear-gradient(180deg, @overlayColor1, @overlayColor2)"
+              }
+            },
+            ".icon-focus": {
+              "display": "none"
+            },
+            ".mbr-gallery-title": {
+              "transition": "all 0.5s ease",
+              "position": "absolute",
+              "text-align": "left",
+              "display": "none",
+              "width": "100%",
+              "top": "0",
+              "right": "0",
+              "padding": "1rem",
+              "color": "#000000",
+              "font-weight": "bold",
+              "background": "transparent",
+              "-webkit-transition": "all 0.5s ease",
+              "-moz-transition": "all 0.5s ease",
+              "-o-transition": "all 0.5s ease",
+              "-ms-transition": "all 0.5s ease"
+            },
+            "ul": {
+              "font-size": "0"
+            },
+            ".mbr-gallery-filter ul li .btn": {
+              "border": "none",
+              "background-color": "transparent",
+              "color": "@tagsColor !important",
+              "padding": "0.5rem 1rem 0.6rem",
+              "border-radius": "0",
+              "margin": "0!important",
+              "transition": "padding, border 0s, transform .2s"
+            },
+            ".mbr-gallery-filter ul li.active .btn": {
+              "padding": "0.5rem 1rem 0.5rem",
+              "border-radius": "0 !important",
+              "position": "relative"
+            },
+            ".mbr-gallery-filter ul li.active .btn:after": {
+              "content": "''",
+              "position": "absolute",
+              "bottom": "0",
+              "left": "0",
+              "width": "100%",
+              "height": "3px",
+              "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)"
+            },
+            ".mbr-gallery-filter ul li": {
+              "padding": "0"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title": {
+                "padding-bottom": "1.5rem",
+                "display": "block"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacityItem !important"
+              }
+            },
+            ".btn": {
+              "background": "none",
+              "border-radius": "0 !important",
+              "&:hover": {
+                "background": "transparent !important",
+                "&:before": {
+                  "background": "transparent !important"
+                }
+              },
+              "&:before": {
+                "background-color": "transparent !important"
+              },
+              "&:focus": {
+                "box-shadow": "none"
+              }
+            },
+            ".mbr-section-title": {
+              "position": "relative",
+              "z-index": "1"
+            },
+            ".mbr-gallery-item > div > span": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "extGallery3",
+          "_sourceTheme": "photom4",
+          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#833030\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#833030\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    GALLERY\n                </h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-bullets mbr-gallery-show-text></div>\n    </div>\n</section>",
+          "_anchor": "extGallery3-c",
+          "_isUserblock": true,
+          "_cid": "sxveREiRfu",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Aerial",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/5a-siddhartha-gardens-pathway-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5a-siddhartha-gardens-pathway-2-800x533.jpg",
+                "alt": "5a_Siddhartha_Gardens_Pathway ",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "5a_Siddhartha_Gardens_Pathway&nbsp;",
                 "active": false
+              },
+              {
+                "tags": "Aerial",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/6-siddhartha-reception-fitness-center-building.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6-siddhartha-reception-fitness-center-building-800x534.jpg",
+                "alt": "6_Siddhartha_Reception & Fitness Center Building.jpg",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "6_Siddhartha_Reception &amp; Fitness Center Building.jpg",
+                "active": false
+              },
+              {
+                "tags": "Oceanfront Pool",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/7-siddhartha-reception-lounge.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7-siddhartha-reception-lounge-800x534.jpg",
+                "alt": "7_Siddhartha_Reception Lounge",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "7_Siddhartha_Reception Lounge",
+                "active": false
+              },
+              {
+                "tags": "Oceanfront Pool",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/8-siddhartha-reception-entrance.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/8-siddhartha-reception-entrance-800x534.jpg",
+                "alt": "8_Siddhartha_Reception Entrance",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "8_Siddhartha_Reception Entrance",
+                "active": false
+              },
+              {
+                "tags": "Oceanfront Pool",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/9-siddhartha-patio-seaview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/9-siddhartha-patio-seaview-800x533.jpg",
+                "alt": "9_Siddhartha_Patio_Seaview",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "2a_Siddhartha_Oceanfront Pool_Sunset",
+                "active": false
+              },
+              {
+                "tags": "Gardens",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/10-siddhartha-deluxe-bungalow-exterior-gardens.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/10-siddhartha-deluxe-bungalow-exterior-gardens-800x533.jpg",
+                "alt": "10_Siddhartha_Deluxe Bungalow Exterior & Gardens",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "10_Siddhartha_Deluxe Bungalow Exterior &amp; Gardens",
+                "active": false
+              },
+              {
+                "tags": "Gardens",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/11-siddhartha-oceanfront-private-pool-villa.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/11-siddhartha-oceanfront-private-pool-villa-800x533.jpg",
+                "alt": "11_Siddhartha_Oceanfront Private Pool Villa",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "11_Siddhartha_Oceanfront Private Pool Villa",
+                "active": false
+              },
+              {
+                "tags": "Gardens",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/12-siddhartha-oceanfront-private-pool-villa-aerial.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/12-siddhartha-oceanfront-private-pool-villa-aerial-800x600.jpg",
+                "alt": "12_Siddhartha_Oceanfront Private Pool Villa_Aerial",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "12_Siddhartha_Oceanfront Private Pool Villa_Aerial",
+                "active": true
               }
             ]
           }
